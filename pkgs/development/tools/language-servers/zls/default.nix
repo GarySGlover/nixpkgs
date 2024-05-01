@@ -14,7 +14,7 @@ stdenv.mkDerivation (finalAttrs: {
     repo = "zls";
     rev = finalAttrs.version;
     fetchSubmodules = true;
-    hash = "";
+    hash = "sha256-2iVDPUj9ExgTooDQmCCtZs3wxBe2be9xjzAk9HedPNY=";
   };
 
   nativeBuildInputs = [
